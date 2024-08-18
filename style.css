@@ -29,8 +29,8 @@ body {
 
 header {
     margin-top: 20px;
-    position: fixed;
-    transform: scale3d(1.03);
+    position:fixed;
+    transform: scale(10.3s);
     top: 0;
     left: 0;
     width: 100%;
@@ -46,8 +46,11 @@ header {
 
 .logo {
     font-size: 3rem;
-    color:  #b74b4b;
+    color:white;
+    letter-spacing: 0.2ch;
     font-weight: 800;
+    font-family:"poppins", sans-serif;
+    transform: scale3d(0.3s);
     cursor: pointer;
     transition: 0.5s ease;
 }
@@ -160,9 +163,9 @@ span {
     font-size: 1.8rem;
     font-weight: 500;
     transform: scale3d(1.03);
-    background-color: dark white;
+    background-color: #b74b4b ;
     color: black;
-    box-shadow: 0 0 35px  #b74b4b;
+    box-shadow: 0 0 35px #b74b4b;
 }
 
 .social-icons a {
@@ -174,7 +177,7 @@ span {
     background-color: transparent;
     border: 0.2rem solid  #b74b4b;
     font-size: 2rem;
-    border-radius: 50%;
+    border-radius: 100%;
     margin: 3rem 1.5rem 3rem 0;
     transition: 0.3s ease;
     color:  white;
