@@ -84,8 +84,8 @@ nav a.active {
         top: 0%;
         right: 0%;
         width: 40%;
-        border-left: 3px solid dark pink;
-        border-bottom: 3px solid dark pink;
+        border-left: 3px solid  #b74b4b;
+        border-bottom: 3px solid  #b74b4b;
         border-bottom-left-radius: 2rem;
         padding: 1rem solid;
         background-color: rgba(255, 192, 203, 0.658);
